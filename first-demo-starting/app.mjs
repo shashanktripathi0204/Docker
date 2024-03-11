@@ -10,5 +10,5 @@ app.get('/', (req, res) => {
 
 await connectToDatabase();
 
-// applying comment to check pull request rule
+// applying comment to check pull request rule, again
 app.listen(3000);
