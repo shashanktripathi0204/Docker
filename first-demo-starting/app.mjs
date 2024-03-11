@@ -10,4 +10,5 @@ app.get('/', (req, res) => {
 
 await connectToDatabase();
 
+// checking ot see if the amain branch is working
 app.listen(3000);
