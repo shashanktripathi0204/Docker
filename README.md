@@ -1,4 +1,4 @@
-### this file will contain the instruction for docker that we want to execute when we create our own image
+### `this file will contain the instruction for docker that we want to execute when we create our own image`
 
 ### FROM -> build our own image on an existing image, 
 ### here the name node is either a pre existing image or an img that is present on dockerhub
