@@ -19,4 +19,5 @@ RUN npm install
 EXPOSE 80
 
 `A command that should be executed when ever we run the container based on that image`
+
 CMD ["node", "server.js"]
