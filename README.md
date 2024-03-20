@@ -2,14 +2,16 @@
 
 #### FROM
 `FROM -> build our own image on an existing image,here the name node is either a pre existing image or an img that is present on dockerhub`
+
 FROM node
 
 WORKDIR /app
 
 #### COPY
-`copy -> is responsible for moving files from local to inside the container`
-`first "." -> path outside of the container/img where files live that shoule be copied into the img`
-`second "." -> path inside the container where the copied files should be stored`
+`copy -> is responsible for moving files from local to inside the container
+first "." -> path outside of the container/img where files live that shoule be copied into the img 
+second "." -> path inside the container where the copied files should be stored`
+
 COPY . /app
 
 RUN npm install
