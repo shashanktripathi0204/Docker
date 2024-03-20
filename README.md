@@ -16,6 +16,7 @@ RUN npm install
 
 
 `we want to let docker know that when this container is started we want to expose a certain port to pur local system(our ,achine here that will run the container) the below instruction is just for show, but is a good practice that EXPOSE 80 in the Dockerfile in the end is optional. It documents that a process in the container will expose this port. But you still need to then actually expose the port with -p when running docker run. So technically, -p is the only required part when it comes to listening on a port. Still, it is a best practice to also add EXPOSE in the Dockerfile to document this behavior.`
+
 EXPOSE 80
 
 `A command that should be executed when ever we run the container based on that image`
